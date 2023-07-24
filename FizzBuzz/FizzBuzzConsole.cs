@@ -2,16 +2,11 @@
 using FizzBuzz.Service;
  
 using System.Reflection;
- 
 
 namespace FizzBuzz
 {
     public  class FizzBuzzConsole
     {
-        
-
-       
-
         public void Run()
         {
             Console.WriteLine("=============Fizz Buzz Start=============");
@@ -23,13 +18,7 @@ namespace FizzBuzz
                 string result = (string)typeFitbuzz.InvokeMember("GetFizzBuzz", BindingFlags.InvokeMethod, null, obj, mParam);
                 Console.WriteLine(string.Format(" number {0} : Result {1}", i.ToString(), result));
             }
-
-            // string result = FizzBuzzService.GetFizzBuzz(i);
-               Console.WriteLine("//================Finish=========================================");
-
-
-
+            Console.WriteLine("//================Finish=========================================");
         }
-
     }
 }

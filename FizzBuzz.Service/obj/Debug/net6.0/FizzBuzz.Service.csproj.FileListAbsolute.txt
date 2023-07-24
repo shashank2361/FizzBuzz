@@ -1,0 +1,12 @@
+C:\Users\Shashank-PC\Downloads\FizzBuzz.Service\bin\Debug\net6.0\FizzBuzz.Service.deps.json
+C:\Users\Shashank-PC\Downloads\FizzBuzz.Service\bin\Debug\net6.0\FizzBuzz.Service.dll
+C:\Users\Shashank-PC\Downloads\FizzBuzz.Service\bin\Debug\net6.0\FizzBuzz.Service.pdb
+C:\Users\Shashank-PC\Downloads\FizzBuzz.Service\obj\Debug\net6.0\FizzBuzz.Service.csproj.AssemblyReference.cache
+C:\Users\Shashank-PC\Downloads\FizzBuzz.Service\obj\Debug\net6.0\FizzBuzz.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shashank-PC\Downloads\FizzBuzz.Service\obj\Debug\net6.0\FizzBuzz.Service.AssemblyInfoInputs.cache
+C:\Users\Shashank-PC\Downloads\FizzBuzz.Service\obj\Debug\net6.0\FizzBuzz.Service.AssemblyInfo.cs
+C:\Users\Shashank-PC\Downloads\FizzBuzz.Service\obj\Debug\net6.0\FizzBuzz.Service.csproj.CoreCompileInputs.cache
+C:\Users\Shashank-PC\Downloads\FizzBuzz.Service\obj\Debug\net6.0\FizzBuzz.Service.dll
+C:\Users\Shashank-PC\Downloads\FizzBuzz.Service\obj\Debug\net6.0\refint\FizzBuzz.Service.dll
+C:\Users\Shashank-PC\Downloads\FizzBuzz.Service\obj\Debug\net6.0\FizzBuzz.Service.pdb
+C:\Users\Shashank-PC\Downloads\FizzBuzz.Service\obj\Debug\net6.0\ref\FizzBuzz.Service.dll
