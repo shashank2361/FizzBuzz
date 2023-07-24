@@ -1,11 +1,33 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-IFizzBuzzService fizzBuzzService = new FizzBuzzService();
+using FizzBuzz;
+using FizzBuzz.Service;
+using Microsoft.Extensions.DependencyInjection;
 
-for (int i = 1; i <= 100; i++)
+
+var services = ConfigureServices();
+var serviceProvider = services.BuildServiceProvider();
+serviceProvider.GetService<FizzBuzzConsole>().Run();
+
+
+static IServiceCollection ConfigureServices()
 {
-    string result = fizzBuzzService.GetFizzBuzz(i);
-    Console.WriteLine(result);
+    IServiceCollection services = new ServiceCollection();
+
+     services.AddScoped<IFizzBuzzService, FizzBuzzService>();
+    services.AddTransient<FizzBuzzConsole>();
+
+    var serviceProvider = services.BuildServiceProvider();
+    return services;
+    // calls the Run method in App, which is replacing Main
+
+
 }
 
-Console.ReadLine();
+ 
+ 
+ 
+
+
+ 
+
+ 
