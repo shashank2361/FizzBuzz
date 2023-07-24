@@ -17,7 +17,7 @@ namespace FizzBuzz
             Console.WriteLine("=============Fizz Buzz Start=============");
             Type typeFitbuzz = typeof(FizzBuzzService);
             object obj = Activator.CreateInstance(typeFitbuzz);
-            for (int i = 0; i <= 100; i++)
+            for (int i = 1; i <= 100; i++)
             {
                 object[] mParam = new object[] { i };              
                 string result = (string)typeFitbuzz.InvokeMember("GetFizzBuzz", BindingFlags.InvokeMethod, null, obj, mParam);
